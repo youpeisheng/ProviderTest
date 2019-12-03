@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 values.put("price",22.85);
                 Uri newUri=getContentResolver().insert(uri,values);
                 newId =newUri.getPathSegments().get(1);
+
             }
         });
         Button queryData=(Button) findViewById(R.id.query_data);
